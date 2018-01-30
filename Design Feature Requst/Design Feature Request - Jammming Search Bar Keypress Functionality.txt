@@ -1,0 +1,16 @@
+﻿Enter Key Functionality in Jammming
+January 30th 2018
+
+
+OBJECTIVE
+Adding key press functionality to the “Search Spotify” button. The button will Search Spotify on click and when a user presses the “enter” key,
+BACKGROUND 
+According to this document as well as personal experience and other user’s experience, it is important for applications to function intuitively, and for there to be some basic UI functionality across different platforms. Most applications across the internet use this feature, therefore it is imperative to use it in my application, for ease of use purposes.
+TECHNICAL DESIGN
+
+
+I will be adding a new component to the render function to enable enter button press functionality. 
+  
+
+CAVEATS
+I do not see any drawbacks to enabling keypress functionality to the searchBar component in this project. The drawback of not including this functionality is bad UI/UX. The “enter” button was chosen as the keypress instead of other keys because the “enter” button is already used in most other programs in this way, and therefore is the most user-friendly option.
